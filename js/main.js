@@ -3,6 +3,7 @@ document.getElementsByTagName("button")[0].onclick = getHoroscope;
 
 function getHoroscope(){
 
+  document.getElementById("message-appear").style.visibility = "visible";
   // define variables that get values from the month and day inputs and parse as floats
     var userMonth = parseFloat(document.getElementById("month").value),
       userDay = parseFloat(document.getElementById("day").value);

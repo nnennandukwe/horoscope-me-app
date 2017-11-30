@@ -1,0 +1,74 @@
+html{
+	background-image:url('../img/universe-background.jpg');
+	background-repeat:no-repeat;
+	background-size: 55%;
+	background-position: center;
+}
+
+body{
+	width:55%;
+	margin:auto;
+	padding-top:2%;
+	font-family: 'Cinzel', serif;
+	border:solid 1px;
+	border-radius:10px;
+	height:700px;
+}
+h1{
+	color:white;
+	text-align:center;
+	font-size:60px;
+}
+.tagline{
+	color:white;
+	font-size:36px;
+	font-weight:700;
+}
+
+.message-appear{
+	width:100%;
+	padding:2%;
+	height:50px;
+	border:none;
+	background-color:#272E3B;
+	border-radius:0px;
+	visibility:hidden;
+}
+.message-appear span{
+	font-size:25px;
+	color:#DCDDDF;
+	padding:1%;
+	font-family: 'Open Sans', sans-serif;
+	visibility:hidden;
+}
+
+input{
+	width:96%;
+	padding:2%;
+	height:50px;
+	font-size:20px;
+	background-color:#1F2F4F;
+	border:none;
+	color:#DCDDDF;
+	font-family: 'Open Sans', sans-serif;
+}
+input::placeholder{
+	font-size:20px;
+	color:#B7B7B8;
+}
+button{
+	width:100%;
+	padding:2%;
+	color:#DCDDDF;
+	height:50px;
+	border:none;
+	font-size:25px;
+	padding:1%;
+	background-color:#272E3B;
+	border-radius:0px;
+	font-family: 'Open Sans', sans-serif;
+}
+input:focus,
+button:focus{
+	outline:none;
+}

@@ -3,14 +3,20 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
   <title>Horoscope App</title>
 </head>
 <body>
-    <span>Get Birthday</span><br>
-    <input type="number" placeholder="month" id="month">
-    <input type="number" placeholder="dd" id="day">
+	<h1>horoscope me</h1>
+    <span class="tagline">enter your birthdate... if you dare.</span><br>
+    <input type="number" placeholder="enter a month in MM format" id="month">
+    <input type="number" placeholder="enter day in DD format" id="day">
     <button type="submit">Get Horoscope</button>
-    <span></span>
+    <div class="message-appear">
+    <span class="message-appear" id="message-appear"></span>
+	</div>
 
 <script type="text/javascript" src="js/main.js"></script>
 </body>
