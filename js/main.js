@@ -11,18 +11,18 @@ function getHoroscope(){
   // define inner HTML arrays and objects
 
   var horoscopeSigns = {
-        'aquarius': 'Aquarius, you won\'t find love again, fucking loser.',
+        'aquarius': 'Aquarius, you won\'t find love again, loser.',
         'pisces': 'Pisces, be more confident. Everyone can tell you are antisocial.',
         'aries': 'Aries, your partner is cheating on you. How could you not have known?',
         'taurus': 'Taurus, you chased after that person because you wanted love. You NEED to be chasing that paper because that bank account lookin sadder than a clown.',
-        'gemini': 'Gemini, pick up a book every once in a while. You can\'t even speak correctly.',
+        'gemini': 'Gemini, pick up a book every once in a while. Learn something, will you!?!',
         'cancer': 'Cancer, time to go shoppping.. If you actually want to NOT look homeless like you typically do.',
         'leo': 'Leo, we know you\'re a social butterfly, but not everything revolves around you.',
-        'virgo': 'Virgo, your wavering self-confidence is prompted by someone else’s questionable behavior',
+        'virgo': 'Virgo, your wavering self-confidence is prompted by someone else’s questionable behavior.',
         'libra': 'Libra, you\'re so level-headed. Keep it up!',
         'scorpio': 'Scorpio, get some friends! You\'re so awkward!!!',
         'sagittarius':'Sag, geez, you can\'t even walk in a straight line. What are you? Three years old?',
-        'capricorn': 'Capricorn, you lie through your teeth everyday and expect people to believe the shit you say?'
+        'capricorn': 'Capricorn, you lie through your teeth everyday and expect people to believe the nonsense you say?'
       }
 
   // determine horoscope with if statements depending on month and day
