@@ -64,7 +64,7 @@ function getHoroscope(){
     document.getElementsByTagName("span")[1].innerHTML = horoscopeSigns.capricorn;
   }
   else{
-    console.log("So... your birthday must not exist..? Try again.")
+    document.getElementsByTagName("span")[1].innerHTML = "So... your birthday must not exist..? Try again.";
   }
   // clear out input logs
   document.getElementById('month').value = "";

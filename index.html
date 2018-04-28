@@ -2,22 +2,31 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700,900" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
   <title>Horoscope App</title>
 </head>
-<body>
-	<h1>horoscope me</h1>
+<body id="body">
+  <section class="section">
+	     <h1 class="title">horoscope me</h1>
     <span class="tagline">enter your birthdate... if you dare.</span><br>
-    <input type="number" placeholder="enter a month in MM format" id="month">
-    <input type="number" placeholder="enter day in DD format" id="day">
-    <button type="submit">Get Horoscope</button>
-    <div class="message-appear">
-    <span class="message-appear" id="message-appear"></span>
-	</div>
-
+    <div class="columns">
+      <div class="column">
+        <input type="number" placeholder="enter a month in MM format" id="month">
+      </div>
+      <div class="column">
+        <input type="number" placeholder="enter day in DD format" id="day">
+      </div>
+      <div class="column">
+        <button type="submit">Get Horoscope</button>
+      <div>
+      <div class="message-appear">
+        <span class="message-appear" id="message-appear"></span>
+      </div>
+    </div>
+</section>
 <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
