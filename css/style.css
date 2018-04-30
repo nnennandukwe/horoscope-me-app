@@ -5,6 +5,34 @@
 	height:600px;
 }
 input, button{
-	height:35px;
-	width:200px;
+	font-size:20px;
+}
+input::placeholder{
+	font-size:20px;
+	margin-left:10px;
+	text-align: center;
+}
+.top{
+	margin-bottom:70px;
+	padding-top:20px;
+	padding-bottom:20px;
+	text-align:center;
+	border:solid 2px #841D0F;
+	border-radius:10px;
+}
+.details{
+	text-align: center;
+	border:solid 2px #D98880;
+	border-radius:10px;
+	padding-top:20px;
+}
+.details > .title,
+.title > p,
+.button{
+	padding-bottom:30px;
+}
+@media only screen and (max-width: 600px){
+	#body{
+		width:100%;
+	}
 }

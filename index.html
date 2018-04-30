@@ -10,20 +10,24 @@
 </head>
 <body id="body">
   <section class="section">
+    <div class="top">
 	     <h1 class="title">horoscope me</h1>
-    <span class="tagline">enter your birthdate... if you dare.</span><br>
-    <div class="columns">
-      <div class="column">
-        <input type="number" placeholder="enter a month in MM format" id="month">
+    <span>enter your birthdate... if you dare.</span>
+  </div>
+    <div class="details">
+      <div class="title">
+        <p>give us the month you were born (1 to 12)</p>
+        <input class="input is-large" type="number" placeholder="enter month in MM format" id="month">
       </div>
-      <div class="column">
-        <input type="number" placeholder="enter day in DD format" id="day">
+      <div class="title">
+        <p>next, provide the day you were born (e.g. 22)</p>
+        <input class="input is-large" type="number" placeholder="enter day in DD format" id="day">
       </div>
-      <div class="column">
-        <button type="submit">Get Horoscope</button>
+      <div class="title">
+        <button class="button is-light is-large" type="submit">Get Horoscope</button>
       <div>
       <div class="message-appear">
-        <span class="message-appear" id="message-appear"></span>
+        <span id="message-appear"></span>
       </div>
     </div>
 </section>
