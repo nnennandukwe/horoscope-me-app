@@ -1,7 +1,8 @@
 # horoscope me app
 
 ## what's the Horoscope Me application ?
-![Alt text](giphy/horoscope-app.gif?raw=true "app")
+<img align="center" src="giphy/horoscope-app.gif"/>
+<br><br>
 Horoscope Me is a crude horoscope application that allows the user to receive a message based upon their birthdate entry!
 
 ## how to get your horoscope
